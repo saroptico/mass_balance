@@ -4,7 +4,6 @@ def cargar_datos(ruta_csv):
     """
     Carga los datos del archivo CSV.
     """
-    # return pd.read_csv(ruta_csv, sep=',', encoding='utf-8')
     return pd.read_csv(ruta_csv, sep=',')
 
 def calcular_balance_masa(ablacion, area_pixel, dens_hielo, dens_agua, SRTM, ALOS, TANDEM):
